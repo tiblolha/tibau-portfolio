@@ -66,8 +66,8 @@ h3 { font-size:1.35rem; margin-bottom:8px; }
 .split { display:grid; grid-template-columns: 1fr 1fr; gap:50px; align-items:center; }
 .card-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; }
 .card {
-  background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:20px;
-  box-shadow:0 10px 30px rgba(40,35,45,.05);
+  background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:25px;
+  box-shadow:0 10px 30px rgba(40,35,45,.05); font-size: 35px;
 }
 .card img { width:100%; aspect-ratio:16/10; object-fit:cover; border-radius:14px; margin-bottom:18px; }
 .quote { border-left:4px solid var(--accent); padding:12px 0 12px 22px; font-size:1.3rem; font-style:italic; color:#555; }
