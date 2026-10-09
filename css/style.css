@@ -70,6 +70,10 @@ h3 { font-size:1.35rem; margin-bottom:8px; }
   background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:25px;
   box-shadow:0 10px 30px rgba(40,35,45,.05);
 }
+.card p {
+font-size: 0.9rem;
+line-height: 1.5;
+}
 .card img { width:100%; aspect-ratio:16/10; object-fit:cover; border-radius:14px; margin-bottom:18px; }
 .quote { border-left:4px solid var(--accent); padding:12px 0 12px 22px; font-size:1.3rem; font-style:italic; color:#555; }
 .page-hero { padding:90px 22px 40px; max-width:var(--max); margin:auto; }
