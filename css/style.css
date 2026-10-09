@@ -75,10 +75,6 @@ font-size: 0.9rem;
 line-height: 1.5;
 }
 .card h2 {
-font-size: clamp(1.2rem, 2vw, 1.6rem);
-line-height: 1.2;
-margin: 0 0 12px;
-letter-spacing: -0.02em;
 overflow-wrap: break-word;
 }
 .card img { width:100%; aspect-ratio:16/10; object-fit:cover; border-radius:14px; margin-bottom:18px; }
