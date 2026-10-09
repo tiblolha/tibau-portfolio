@@ -67,15 +67,23 @@ h3 { font-size:1.35rem; margin-bottom:8px; }
 .split { display:grid; grid-template-columns: 1fr 1fr; gap:50px; align-items:center; }
 .card-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:20px;align-items: stretch; }
 .card {
-  background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:25px;
-  box-shadow:0 10px 30px rgba(40,35,45,.05);
+background: var(--surface);
+border: 1px solid var(--border);
+border-radius: 20px;
+padding: 25px;
+box-shadow: 0 10px 30px rgba(40, 35, 45, .05);
+min-width: 0;
+height: auto;
+}
+
+.card h2 {
+font-size: 1.4rem;
+line-height: 1.2;
+overflow-wrap: anywhere;
 }
 .card p {
 font-size: 0.9rem;
 line-height: 1.5;
-}
-.card h2 {
-overflow-wrap: break-word;
 }
 .card img { width:100%; aspect-ratio:16/10; object-fit:cover; border-radius:14px; margin-bottom:18px; }
 .quote { border-left:4px solid var(--accent); padding:12px 0 12px 22px; font-size:1.3rem; font-style:italic; color:#555; }
