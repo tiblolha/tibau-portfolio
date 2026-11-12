@@ -4,3 +4,12 @@
 
 /.vs/tibau-portfolio/copilot-chat/683aba93/sessions/534eca8f-9f36-45c2-ab4d-68343eaab50c
 /.vs/tibau-portfolio/CopilotIndices/17.14.1091.29919
+# Visual Studio cache
+.vs/
+
+# Visual Studio files
+*.vsidx
+
+# Build files
+bin/
+obj/
